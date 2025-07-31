@@ -38,7 +38,7 @@ def step():
 
 
 jit_step = TinyJit(step)
-steps = 1
+steps = 7000
 wandb.init(project="CNN", space_id="jonathansuru/CNN", config={
         "steps": steps,
         "learning_rate": 0.001,
